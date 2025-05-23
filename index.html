@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Food Lover Restaurant</title>
+</head>
+<body>
+	<!-- Loader start -->
+  <div class="loader">
+    <ul class="loader__list">
+      <li class="loader__item"></li>
+      <li class="loader__item"></li>
+      <li class="loader__item"></li>
+      <li class="loader__item"></li>
+      <li class="loader__item"></li>
+    </ul>
+  </div>
+  <!-- Loader end -->
+
+	<!-- Modal start -->
+	<div class="modal">
+    <div class="modal__dialog">
+      <div class="modal__content">
+        <button class="modal__close" type="button">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <form class="modal__form" action="https://echo.htmlacademy.ru">
+          <h2 class="modal__title">Contact Us!</h2>
+          <input class="modal__input" type="text" placeholder="Full name" name="name" required />
+          <input class="modal__input" type="phone" placeholder="+998(99) 999 99 99" name="phone" required />
+          <button class="modal__btn" type="submit">Contact Us</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Modal end -->
+
+	<!-- Header start -->
+	<header class="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<a class="header__logo" href="index.html">
+					<img class="header__logo-img" src="./assets/images/logo.png" width="80" height="80" alt="Food Lover logo">
+				</a>
+				
+				<nav class="header__nav" role="navigation">
+					<ul class="header__nav-list">
+						<li class="header__nav-item">
+							<a class="header__nav-link" href="#home">Home</a>
+						</li>
+						<li class="header__nav-item">
+							<a class="header__nav-link" href="#about">About</a>
+						</li>
+						<li class="header__nav-item">
+							<a class="header__nav-link" href="#menu">Menu</a>
+						</li>
+						<li class="header__nav-item">
+							<a class="header__nav-link" href="#gallery">Gallery</a>
+						</li>
+						<li class="header__nav-item">
+							<a class="header__nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- Header end -->
+
+	<!-- Main start -->
+	<main class="main">
+		<!-- Hero section start -->
+		<section class="hero" id="home">
+			<div class="hero__wrapper">
+				<h1 class="hero__title">
+					Welcome To <span class="hero__title-food">Food Lover</span> Restaurant
+				</h1>
+				<p class="hero__desc">Here you can find Most delicacies food in the world</p>
+				<div class="hero__btns">
+					<button class="hero__btn arrow" type="button">Read more</button>
+					<button class="hero__btn phone" type="button" data-modal>Contact Us</button>
+				</div>
+			</div>
+		</section>
+		<!-- Hero section end -->
+
+		<!-- About section start -->
+		<section class="about" id="about">
+			<div class="container">
+				<div class="about__wrapper">
+					<h2 class="about__title section-title">The Food Lover history</h2>
+					<p class="about__desc section-desc">More than 25+ years of experience</p>
+					
+					<div class="about__content">
+						<div class="about__tabs">
+							<ul class="about__tabs-list">
+								<li class="about__tabs-item">
+									<button class="about__tabs-btn about__tabs-btn--active" type="button">Paris</button>
+								</li>
+								<li class="about__tabs-item">
+									<button class="about__tabs-btn" type="button">London</button>
+								</li>
+								<li class="about__tabs-item">
+									<button class="about__tabs-btn" type="button">Dubai</button>
+								</li>
+								<li class="about__tabs-item">
+									<button class="about__tabs-btn" type="button">Moscow</button>
+								</li>
+								<li class="about__tabs-item">
+									<button class="about__tabs-btn" type="button">Tashkent</button>
+								</li>
+							</ul>
+						</div>
+	
+						<div class="about__tabs-content">
+							<p class="about__tabs-text"> <strong>Paris:</strong> 
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam odio eaque nobis cupiditate qui aspernatur impedit similique adipisci aperiam alias aut, velit nemo tempora facilis, nisi ad sequi quos ipsam laborum temporibus? Aliquid omnis laborum nam maiores dolores vel deserunt impedit perspiciatis sequi laudantium veritatis, magni dignissimos officia quaerat, cum, vitae ullam! Veritatis ducimus labore sunt explicabo sit est quis dolore consequatur. Nisi ab velit corporis, possimus explicabo corrupti necessitatibus cumque exercitationem earum? Nostrum libero, saepe voluptatum quas accusamus dolor.
+							</p>
+							<img class="about__tabs-img" src="./assets/images/about-food-1.jpg" width="400" height="300" alt="Paris food">
+						</div>
+						<div class="about__tabs-content">
+							<p class="about__tabs-text"> <strong>London:</strong> 
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel totam esse laudantium, praesentium veritatis ab minus sint consequatur placeat? Molestias blanditiis ipsum provident dicta in totam eaque atque, nam ut. Sequi sint libero, illo eos rem assumenda provident distinctio repellendus dolor soluta culpa minima aspernatur quod, iusto quos enim mollitia perspiciatis dolores harum a facere porro corrupti quasi doloremque! Ullam dignissimos, facilis ab cumque veniam sequi libero nobis aperiam ex, consequuntur asperiores molestiae. Obcaecati accusantium, dolor id voluptates beatae adipisci?
+							</p>
+							<img class="about__tabs-img" src="./assets/images/about-food-2.jpg" width="400" height="300" alt="London food">
+						</div>
+						<div class="about__tabs-content">
+							<p class="about__tabs-text"> <strong>Dubai:</strong> 
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptatum impedit quo dolorem fuga suscipit illum velit amet! Porro culpa eos error voluptate autem fugiat atque, ipsum sapiente sunt itaque quo, ex quaerat! Corrupti laudantium consequuntur iusto quam, architecto dolorum perspiciatis. Molestias voluptatibus placeat, praesentium deserunt culpa corporis ea aperiam doloremque minus eveniet perspiciatis ipsa quaerat dolores, consequatur dolore iste natus laborum ex quos autem pariatur provident veniam. Quo, nulla quidem! Odit beatae tempore repudiandae corporis adipisci nesciunt ipsam praesentium.
+							</p>
+							<img class="about__tabs-img" src="./assets/images/about-food-3.jpg" width="400" height="300" alt="Dubai food">
+						</div>
+						<div class="about__tabs-content">
+							<p class="about__tabs-text"> <strong>Moscow:</strong> 
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eos dolorum nulla voluptatum, quod ut a consectetur distinctio. Est consequuntur quod dolorem! Exercitationem odio tenetur modi eos officiis quisquam, maiores nisi ducimus dolores placeat qui suscipit. Unde molestiae vel illum nobis voluptatibus numquam labore nulla odio sit sapiente, quasi placeat, nemo repudiandae sint maxime vero magni mollitia ut velit, aliquid tenetur id delectus itaque. At pariatur molestiae debitis accusantium, autem blanditiis corporis quis ipsam? Eaque animi maiores ducimus commodi nisi?
+							</p>
+							<img class="about__tabs-img" src="./assets/images/about-food-4.jpg" width="400" height="300" alt="Moscow food">
+						</div>
+						<div class="about__tabs-content"> 
+							<p class="about__tabs-text"> <strong>Tashkent:</strong> 
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam natus dolor quo debitis ipsa similique, consectetur id pariatur, ipsum praesentium error, quod recusandae! Deserunt, sit excepturi. Dolorum sapiente veniam perspiciatis omnis eius delectus, odit, doloremque sit voluptatem voluptas inventore. Rerum sit quibusdam, rem laborum omnis a. Provident, ducimus nesciunt deserunt quibusdam dolorum nostrum inventore tempore nobis dolor atque! Consequatur dolore dignissimos maiores minima corrupti, quo nostrum itaque facilis, officia quaerat sint facere? Harum saepe praesentium, ipsum necessitatibus excepturi reiciendis nostrum!
+							</p>
+							<img class="about__tabs-img" src="./assets/images/about-food-5.jpg" width="400" height="300" alt="Tashkent food">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- About section end -->
+
+		<!-- Offers section start -->
+    <section class="offers" id="offers">
+      <div class="container">
+        <div class="offers__wrapper">
+          <h2 class="offers__title section-title">Our Special Offers</h2>
+          <p class="offers__desc section-desc">More than 25+ years of experience</p>
+
+          <ul class="offers__list">
+            <li class="offers__item">
+              <img class="offers__item-img" src="./assets/images/offer1.png" width="200" height="200" alt="Quattro Pasta">
+              <div class="offers__item-info">
+                <h3 class="offers__item-title">Quattro Pasta</h3>
+                <p class="offers__item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quibusdam.</p>
+                <p class="offers__item-price">
+                  <del class="offers__item-del">$55.00</del> 
+                  <span class="offers__item-span">$18.00</span>
+                </p>
+              </div>
+            </li>
+            <li class="offers__item">
+              <img class="offers__item-img" src="./assets/images/offer2.png" width="200" height="200"  alt="Vegertarian Pasta">
+              <div class="offers__item-info">
+                <h3 class="offers__item-title">Vegertarian Pasta</h3>
+                <p class="offers__item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quibusdam.</p>
+                <p class="offers__item-price">
+                  <del class="offers__item-del">$55.00</del> 
+                  <span class="offers__item-span">$18.00</span>
+                </p>
+              </div>
+            </li>
+            <li class="offers__item">
+              <img class="offers__item-img" src="./assets/images/offer3.png" width="200" height="200" alt="Quattro Pasta">
+              <div class="offers__item-info">
+                <h3 class="offers__item-title">Gluten-Free Pasta</h3>
+                <p class="offers__item-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quibusdam.</p>
+                <p class="offers__item-price">
+                  <del class="offers__item-del">$55.00</del> 
+                  <span class="offers__item-span">$18.00</span>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Offers section end -->
+
+    <!-- Menu section start -->
+    <section class="menu" id="menu">
+      <div class="container">
+        <div class="menu__wrapper">
+          <h2 class="menu__title section-title">Our Special Menu</h2>
+          <p class="menu__desc section-desc">Order two and get third for free</p>
+          <div class="menu__content">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <img class="menu__item-img" src="./assets/images/food1.png" width="80" height="80" alt="LASAL Cheese">
+                <div class="menu__item-info">
+                  <div class="menu__item-inner">
+                    <h3 class="menu__item-title">LASAL CHEESE</h3>
+                    <span class="menu__item-price">$18.00</span>
+                  </div>
+                  <p class="menu__item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                </div>
+              </li>
+              <li class="menu__item">
+                <img class="menu__item-img" src="./assets/images/food2.png" width="80" height="80" alt="JUMBO CRAB SHRIMP">
+                <div class="menu__item-info">
+                  <div class="menu__item-inner">
+                    <h3 class="menu__item-title">JUMBO CRAB SHRIMP</h3>
+                    <span class="menu__item-price">$24.00</span>
+                  </div>
+                  <p class="menu__item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                </div>
+              </li>
+              <li class="menu__item">
+                <img class="menu__item-img" src="./assets/images/food3.png" width="80" height="80" alt="KOKTAIL JUCIE">
+                <div class="menu__item-info">
+                  <div class="menu__item-inner">
+                    <h3 class="menu__item-title">KOKTAIL JUCIE</h3>
+                    <span class="menu__item-price">$12.00</span>
+                  </div>
+                  <p class="menu__item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                </div>
+              </li>
+              <li class="menu__item">
+                <img class="menu__item-img" src="./assets/images/food4.png" width="80" height="80" alt="CAPO STEAK">
+                <div class="menu__item-info">
+                  <div class="menu__item-inner">
+                    <h3 class="menu__item-title">CAPO STEAK</h3>
+                    <span class="menu__item-price">$60.00</span>
+                  </div>
+                  <p class="menu__item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                </div>
+              </li>
+              <li class="menu__item">
+                <img class="menu__item-img" src="./assets/images/food5.png" width="80" height="80" alt="ORGANIC FRUIT SALAD">
+                <div class="menu__item-info">
+                  <div class="menu__item-inner">
+                    <h3 class="menu__item-title">ORGANIC FRUIT SALAD</h3>
+                    <span class="menu__item-price">$8.00</span>
+                  </div>
+                  <p class="menu__item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                </div>
+              </li>
+              <li class="menu__item">
+                <img class="menu__item-img" src="./assets/images/food6.png" width="80" height="80" alt="CHEESE PIZZA">
+                <div class="menu__item-info">
+                  <div class="menu__item-inner">
+                    <h3 class="menu__item-title">CHEESE PIZZA</h3>
+                    <span class="menu__item-price">$18.00</span>
+                  </div>
+                  <p class="menu__item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                </div>
+              </li>
+            </ul>
+            <ul class="menu__list">
+              <li class="menu__item">
+                <img class="menu__item-img" src="./assets/images/food7.jpeg" width="80" height="80" alt="KOFTA MEAT">
+                <div class="menu__item-info">
+                  <div class="menu__item-inner">
+                    <h3 class="menu__item-title">KOFTA MEAT</h3>
+                    <span class="menu__item-price">$40.00</span>
+                  </div>
+                  <p class="menu__item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                </div>
+              </li>
+              <li class="menu__item">
+                <img class="menu__item-img" src="./assets/images/food8.jpeg" width="80" height="80" alt="SPANISH PIES">
+                <div class="menu__item-info">
+                  <div class="menu__item-inner">
+                    <h3 class="menu__item-title">SPANISH PIES</h3>
+                    <span class="menu__item-price">$14.00</span>
+                  </div>
+                  <p class="menu__item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                </div>
+              </li>
+              <li class="menu__item">
+                <img class="menu__item-img" src="./assets/images/food9.jpeg" width="80" height="80" alt="CHEESE TOST">
+                <div class="menu__item-info">
+                  <div class="menu__item-inner">
+                    <h3 class="menu__item-title">CHEESE TOST</h3>
+                    <span class="menu__item-price">$6.00</span>
+                  </div>
+                  <p class="menu__item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                </div>
+              </li>
+              <li class="menu__item">
+                <img class="menu__item-img" src="./assets/images/food10.jpeg" width="80" height="80" alt="FRUIT SALAD">
+                <div class="menu__item-info">
+                  <div class="menu__item-inner">
+                    <h3 class="menu__item-title">FRUIT SALAD</h3>
+                    <span class="menu__item-price">$14.00</span>
+                  </div>
+                  <p class="menu__item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                </div>
+              </li>
+              <li class="menu__item">
+                <img class="menu__item-img" src="./assets/images/food11.jpeg" width="80" height="80" alt="CHICKEN SHAWARMA">
+                <div class="menu__item-info">
+                  <div class="menu__item-inner">
+                    <h3 class="menu__item-title">CHICKEN SHAWARMA</h3>
+                    <span class="menu__item-price">$20.00</span>
+                  </div>
+                  <p class="menu__item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                </div>
+              </li>
+              <li class="menu__item">
+                <img class="menu__item-img" src="./assets/images/food12.jpeg" width="80" height="80" alt="MEGA CHEESE PIZZA">
+                <div class="menu__item-info">
+                  <div class="menu__item-inner">
+                    <h3 class="menu__item-title">MEGA CHEESE PIZZA</h3>
+                    <span class="menu__item-price">$30.00</span>
+                  </div>
+                  <p class="menu__item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="menu__btns">
+            <button class="menu__btn arrow" type="button">Read more</button>
+            <button class="menu__btn phone" type="button" data-modal>Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu section end -->
+
+    <!-- Daytime section start-->
+    <section class="daytime" id="daytime">
+      <div class="container">
+        <div class="daytime__wrapper">
+          <ul class="daytime__list">
+            <li class="daytime__item">
+              <img class="daytime__icon" src="./assets/images/breckfastIcon.png" width="87" height="87" alt="Breakfast">
+              <h3 class="daytime__title">Breakfast</h3>
+              <p class="daytime__time">8:00 am to 10:00 am</p>
+            </li>
+            <li class="daytime__item">
+              <img class="daytime__icon" src="./assets/images/lunchIcon.png" width="81" height="77" alt="Lunch">
+              <h3 class="daytime__title">Lunch</h3>
+              <p class="daytime__time">4:00 pm to 7:00 pm</p>
+            </li>
+            <li class="daytime__item">
+              <img class="daytime__icon" src="./assets/images/dinnerIcon.png" width="105" height="71" alt="Dinner">
+              <h3 class="daytime__title">Dinner</h3>
+              <p class="daytime__time">9:00 pm to 1:00 Am</p>
+            </li>
+            <li class="daytime__item">
+              <img class="daytime__icon" src="./assets/images/dessertIcon.png" width="64" height="75" alt="dessert">
+              <h3 class="daytime__title">Dessert</h3>
+              <p class="daytime__time">All day</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Daytime section end-->
+
+    <!-- Gallery section start -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="gallery__slider">
+          <div class="gallery__slider-counter">
+            <button class="gallery__slider-prev" type="button" aria-label="Prev slide">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <span class="gallery__slider-current" id="current">01</span>
+            <i class="fa-solid fa-slash slash"></i>
+            <span class="gallery__slider-total" id="total">06</span>
+            <button class="gallery__slider-next" type="button" aria-label="Next slide">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+    
+          <div class="gallery__slider-wrapper">
+            <div class="gallery__slider-inner">
+              <ul class="gallery__slider-list">
+                <li class="gallery__slider-item">
+                  <img class="gallery__slider-img" src="./assets/images/gallery1.jpg" width="400" height="400" alt="Gallery image 1">
+                </li>
+                <li class="gallery__slider-item">
+                  <img class="gallery__slider-img" src="./assets/images/gallery2.png" width="400" height="400" alt="Gallery image 2">
+                </li>
+                <li class="gallery__slider-item">
+                  <img class="gallery__slider-img" src="./assets/images/gallery3.jpeg" width="400" height="400" alt="Gallery image 2">
+                </li>
+                <li class="gallery__slider-item">
+                  <img class="gallery__slider-img" src="./assets/images/gallery4.jpg" width="400" height="400" alt="Gallery image 3">
+                </li>
+                <li class="gallery__slider-item">
+                  <img class="gallery__slider-img" src="./assets/images/gallery5.jpg" width="400" height="400" alt="Gallery image 4">
+                </li>
+                <li class="gallery__slider-item">
+                  <img class="gallery__slider-img" src="./assets/images/gallery6.jpg" width="400" height="400" alt="Gallery image 5">
+                </li>
+              </ul>
+            </div>
+
+            <div class="gallery__slider-content">
+              <h2 class="gallery__slider-title">Our Food Gallery</h2>
+              <p class="gallery__slider-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ad rerum! Assumenda, non libero delectus recusandae aperiam excepturi. Quo obcaecati veritatis neque modi necessitatibus repudiandae eveniet repellendus a quia ipsum!
+              </p>
+              <p class="gallery__slider-desc">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, praesentium similique. Saepe cupiditate, dignissimos ex inventore ad quam facilis architecto laborum dolores in adipisci est expedita accusamus fugiat atque ipsum.
+              </p>
+              <button class="gallery__slider-btn" type="button" data-modal>CONTACT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallary section end -->
+
+		<!-- Contact section start -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact__wrapper">
+          <div class="contact__info">
+						<h3 class="contact__title">ADDRESS</h3>
+						<address class="contact__address">
+							<i class="fa-solid fa-location-dot"></i>
+							Tashkent, 6 October, Uzbekistan
+						</address>
+						<a class="contact__link" href="tel:+99899999999" target="_blank">
+							<i class="fa-solid fa-phone"></i>
+							(998) 99-999-99-99
+						</a>
+						<a class="contact__link" href="mailto: support@foodlover.com" target="_blank">
+							<i class="fa-regular fa-envelope"></i>
+							support@foodlover.com
+						</a>
+          </div>
+
+          <div class="timer">
+            <h2 class="timer__title">Coming soon</h2>
+            <ul class="timer__list">
+              <li class="timer__item">
+                <span class="timer__number" id="days">00</span>
+                <p class="timer__text">day</p>
+              </li>
+              <li class="timer__item">
+                <span class="timer__number" id="hours">00</span>
+                <p class="timer__text">hours</p>
+              </li>
+              <li class="timer__item">
+                <span class="timer__number" id="minutes">00</span>
+                <p class="timer__text">minutes</p>
+              </li>
+              <li class="timer__item">
+                <span class="timer__number" id="seconds">00</span>
+                <p class="timer__text">seconds</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section end -->
+	</main>
+	<!-- Main end -->
+
+	<!-- Footer start -->
+	<footer class="footer" id="footer">
+    <div class="container">
+      <p>Copyright &copy; 2025 All rights reserved | made by 
+        <span class="footer__name">Otabek</span>
+      </p>
+    </div>
+	</footer>
+	<!-- Footer end -->
+
+	<script src="./js/main.js"></script>
+</body>
+</html>
