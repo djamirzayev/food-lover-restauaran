@@ -712,8 +712,10 @@ input {
 
 /* ----- Contact section start ----- */
 .contact {
-	background: #f4f2ed;
+	background: url('../assets/images/contact-bg.jpeg') no-repeat center / cover
+	fixed;
 	padding: 100px 0;
+	opacity: 0.9;
 }
 
 .contact__wrapper {
@@ -731,7 +733,7 @@ input {
 .contact__title {
 	font-size: 28px;
 	font-weight: 700;
-	color: var(--color-black);
+	color: var(--color-white);
 	margin-bottom: 15px;
 }
 
@@ -746,14 +748,18 @@ input {
 .contact__address {
 	font-size: 16px;
 	font-weight: 500;
-	color: var(--color-black);
+	color: var(--color-white);
 	font-style: normal;
 }
 
 .contact__link {
 	font-size: 16px;
 	font-weight: 500;
-	color: var(--color-black);
+	color: var(--color-white);
+}
+
+.contact__link:hover {
+	text-decoration: underline;
 }
 
 .contact__address i,
@@ -765,7 +771,7 @@ input {
 
 .timer__title {
 	font-size: 40px;
-	color: var(--color-black);
+	color: var(--color-white);
 	margin-bottom: 20px;
 }
 
